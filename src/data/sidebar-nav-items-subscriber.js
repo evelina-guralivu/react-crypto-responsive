@@ -1,0 +1,24 @@
+export default function () {
+  return [
+    {
+      title: "Member Content",
+      htmlBefore: '<i class="material-icons">view_quilt</i>',
+      to: "/blogs/premium/",
+    },
+    {
+      title: "Alerts",
+      htmlBefore: '<i class="material-icons">notification_important</i>',
+      to: "/alerts",
+    },
+    {
+      title: "Analysts",
+      htmlBefore: '<i class="material-icons">people</i>',
+      to: "/analysts",
+    },
+    {
+      title: "Education",
+      htmlBefore: '<i class="material-icons">book</i>',
+      to: "/education",
+    }
+  ];
+}
